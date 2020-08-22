@@ -1,0 +1,61 @@
+{
+  "carrinhoAtual": [
+    {
+      "infoAdicional": "Vende Crua",
+      "medida": "Kg",
+      "nome": "Banana da terra",
+      "quantidade": 3,
+      "id": "e5a1b82a-a7b2-445f-b64e-891a2ed9c3d1"
+    },
+    {
+      "infoAdicional": "integral 1L Nestlê",
+      "medida": "Un",
+      "nome": "Creme de leite",
+      "quantidade": 10,
+      "id": "8710ffd8-4d3f-4e77-be55-db412b6bbc0b"
+    },
+    {
+      "infoAdicional": "Apenas fornecedores padrão A+ com prazo",
+      "medida": "Un",
+      "nome": "Coentro maço",
+      "quantidade": 1,
+      "id": "c6b6d4d3-2cd5-4c5b-9174-f647b7ce813b"
+    },
+    {
+      "infoAdicional": "Cortar em bifes",
+      "medida": "Kg",
+      "nome": "File Mignon (peça)",
+      "quantidade": 8,
+      "id": "00f33958-c4e7-447e-ab2d-85d26fb11b93"
+    }
+  ],
+  "produtosDiponiveis": [
+    {
+      "medida": "Un",
+      "nome": "Coca-cola PET 2L",
+      "quantidade": 0,
+      "id": "da661938-13c7-43f4-8464-6e591802aa7e"
+    },
+    {
+      "medida": "Un",
+      "nome": "Banana Prata",
+      "quantidade": 0,
+      "id": "62ee4f12-d9f3-40d8-a0f3-ade86a506e92"
+    },
+    {
+      "medida": "Un",
+      "nome": "Coentro Maço",
+      "quantidade": 0,
+      "id": "82d4db10-8218-4006-86ce-774e28dd769c"
+    },
+    {
+      "medida": "Un",
+      "nome": "Cachaça Yaguara 1L",
+      "quantidade": 0,
+      "id": "7e3653e9-eb22-471a-a1f7-dcf928ae29f5"
+    }
+  ],
+  "entrega": {
+    "data": "5a feira 10-12h"
+  }
+}
