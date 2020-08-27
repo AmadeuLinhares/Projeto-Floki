@@ -12,6 +12,7 @@ import { BsArrowsAngleExpand } from 'react-icons/bs';
 import { RiFileList3Line } from 'react-icons/ri';
 import { FaFilter, FaSearchPlus } from 'react-icons/fa';
 import { ImWhatsapp } from 'react-icons/im';
+import { useHistory } from 'react-router-dom';
 import Container from '../../components/Container';
 import ItemProduto from '../../components/ItensCarrinho';
 import ItensAdicionais from '../../components/Produtos';
@@ -37,7 +38,10 @@ import {
   ItensAdd,
   Duvida,
   TextoDuvida,
+  ContainerButton,
 } from './styles';
+
+import Button from '../../components/Button';
 
 import * as Dados from '../../util/objetoParametro';
 import api from '../../services/api';
@@ -52,6 +56,7 @@ const Home: React.FC = () => {
 
   const [entregaApi, setEntregaApi] = useState('');
   const [mostrarCarrinho, setMostrarCarrinho] = useState(true);
+  const history = useHistory();
 
   useEffect(() => {
     async function ListarProdutosCarrinho() {
@@ -200,6 +205,10 @@ const Home: React.FC = () => {
 
           <ImWhatsapp size={40} />
         </Duvida>
+
+        <ContainerButton>
+          <Button funcao={() => history.push('List')}>Check List</Button>
+        </ContainerButton>
       </Subcontainer>
     </Container>
   );

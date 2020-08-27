@@ -156,3 +156,11 @@ export const TextoDuvida = styled.div`
     font-weight: bold;
   }
 `;
+export const ContainerButton = styled.div`
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  p {
+    font-weight: bold;
+  }
+`;
