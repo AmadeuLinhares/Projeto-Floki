@@ -53,7 +53,7 @@ const Produtos: React.FC<Propriedades> = ({
         </Titulo>
       </Item>
       <Quantidade>
-        <CheckItem onClick={() => setCheckbox(!checkbox)} checked={checkbox} />
+        <CheckItem onChange={() => setCheckbox(!checkbox)} checked={checkbox} />
       </Quantidade>
     </Container>
   );

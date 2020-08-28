@@ -135,7 +135,7 @@ const List: React.FC = () => {
         </Duvida>
 
         <ContainerButton>
-          <Button funcao={() => history.push('/')}>Check List</Button>
+          <Button funcao={() => history.push('/')}>Carrinho</Button>
         </ContainerButton>
       </Subcontainer>
     </Container>

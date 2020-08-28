@@ -62,7 +62,7 @@ const Home: React.FC = () => {
     async function ListarProdutosCarrinho() {
       const { data } = await api.get('carrinhoAtual');
       setCarrinhoAtual(data);
-      console.log('carrinho', data);
+      console.tron.log('carrinho', data);
     }
     async function ListarProdutosDisponiveis() {
       const { data } = await api.get('produtosDiponiveis');
